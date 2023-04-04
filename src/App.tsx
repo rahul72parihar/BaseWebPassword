@@ -1,13 +1,13 @@
-import React from "react";
-import { Card, StyledBody, StyledAction } from "baseui/card";
-import { Button, KIND, SHAPE } from "baseui/button";
-import { Input } from "baseui/input";
-import { useStyletron } from "baseui";
-import { Accordion, Panel } from "baseui/accordion";
-import { Slider } from "baseui/slider";
 import "./App.css";
-import { FormControl } from "baseui/form-control";
+import React from "react";
+import { Accordion, Panel } from "baseui/accordion";
+import { Button, KIND, SHAPE } from "baseui/button";
+import { Card, StyledBody, StyledAction } from "baseui/card";
 import { Checkbox, LABEL_PLACEMENT } from "baseui/checkbox";
+import { FormControl } from "baseui/form-control";
+import { Input } from "baseui/input";
+import { Slider } from "baseui/slider";
+import { useStyletron } from "baseui";
 
 function App() {
   const [css, theme] = useStyletron();
